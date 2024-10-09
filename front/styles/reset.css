@@ -1,0 +1,125 @@
+/* reset.css */
+
+/* Reseteo general de todos los elementos */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Restablecer listas sin estilo */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Restablecer citas */
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+    content: '';
+    content: none;
+}
+
+/* Tabla sin espaciado de celdas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Reset de inputs y botones */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+textarea {
+    resize: none;
+}
+
+/* Enlace sin subrayado */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Reset de imágenes y medios */
+img,
+embed,
+object,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reset de figure y figcaption */
+figure {
+    margin: 0;
+}
+
+/* Reset de strong */
+strong {
+    font-weight: bold;
+}
+
+/* Reset de hr */
+hr {
+    border: 0;
+    height: 1px;
+    margin: 0;
+}
+
+/* Reset de formulario */
+form {
+    margin: 0;
+}
+
+/* Reset de body */
+body {
+    line-height: 1;
+}

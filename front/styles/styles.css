@@ -1,0 +1,322 @@
+.museomoderno {
+    font-family: "MuseoModerno", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .questrial-regular {
+      font-family: "Questrial", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+  }
+
+body {    
+    background-repeat:no-repeat;
+    background-color: #000000;
+    background-size:auto;
+    color: #000000;
+    font-family: "Questrial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+header {    
+    background-color: #00000057;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    width: 150px;    
+    margin-left: 20px;
+}
+
+header h1 {
+    margin-top: 50px;
+    font-family: "MuseoModerno";    
+    font-size: 250%;      
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+.dropdown-menu {
+    width: 250%;
+}
+
+a.registrarme,
+.registrarme {
+    color: black ;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 0%;
+}
+
+a.registrarme:hover {
+    background: #00000000;
+    color: #38B6FF;   
+}
+
+nav a:hover {
+    border-radius: 10px;
+    background-color: #38B6FF; 
+}
+
+.btn-primary {
+    background-color: #38B6FF;
+    border: none;
+    border-radius: 10px;
+    padding: 0.0rem 1rem;
+    height: 33px;
+}
+
+.btn-primary:hover {
+    color:#000000;
+    background-color: #38B6FF;
+    border: none;
+    border-radius: 10px;
+    padding: 0.0rem 1rem;
+    height: 33px;
+}
+
+.btn-primary-02 {
+    color: #ffffff;
+    border: #ffffff 2px solid;       
+    border-radius: 10px;
+    padding: 0.0rem 1rem;
+    height: 33px;
+    background-color: #ffffff00;
+}
+
+.btn-primary-02:hover {
+    color:#38B6FF;
+    border: #38B6FF 2px solid;    
+    border-radius: 10px;
+    padding: 0.0rem 1rem;
+    height: 33px;
+    background-color: #ffffff00;
+}
+
+h1 {
+    color: #ffffff;    
+}
+
+h2 {
+    color: #ffffff;    
+}
+
+h3 {
+    font-family: "Questrial";    
+    color:rgb(255, 255, 255) ;
+    font-size: 16px;
+}
+
+.cartelera {
+    size: 100%;
+    
+    
+}
+
+
+.contenedorSobreMi,
+.contenedorPeliculas {
+    align-items:center;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+
+.contenedorSobreMi {
+    p {
+        font-style: normal;
+        font-size: medium;
+    }
+}
+
+
+.peliculas {
+    display: flex;
+    color:#fff;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+    max-width: 100%;   
+}
+
+
+button,
+.titulo {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    color:#fff;
+    background-color: #38B6FF; 
+}
+
+button:hover,
+.titulo:hover {
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    background-color: #38B6FF;
+    color:black;
+}
+
+.pelicula4,
+.pelicula5,
+.pelicula6,
+.pelicula {
+    max-width:23%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espaciado interno */
+    align-items: center;
+    border-radius: 10px;
+    background-color: #00000057;
+    transition: transform 0.3s, box-shadow 0.3s; 
+    
+}
+
+.pelicula4:hover,
+.pelicula5:hover,
+.pelicula6:hover,
+.pelicula:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.pelicula img {
+    width: 50%;
+    height: auto;
+    margin: 20px;   
+}
+
+/*pelis que yo añadí*/
+.pelicula4 img {
+    width: 51%;
+    height: auto;
+    margin: 20px;    
+}
+
+.pelicula5 img {
+    width: 50%;
+    height: auto;
+    margin: 20px;    
+}
+
+.pelicula6 img {
+    width: 56%;
+    height: auto;
+    margin: 20px;
+}    
+
+
+.textoCursiva {
+    justify-content: left;
+    padding: 1%;  
+    
+}
+
+.row {
+    background-color: #00000057 ;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 80%;
+    margin: 20px auto;
+}
+
+p {
+    font-family: "Questrial";
+    color:rgb(255, 255, 255) ;
+    font-size: 15px;
+    font-style: oblique;
+    margin:2%;
+    line-height: 1.5;
+    
+}
+
+/* Estilos para pantallas de hasta 600px de ancho */
+@media (max-width: 600px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .movie-card h2, .movie-card p {
+      text-align: center;
+    }
+  
+    .carousel {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .container {
+      padding: 10px;
+      max-width: 100%;
+    }
+
+    .peliculas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      body {
+        background-color: #000000;
+      }
+  }
+  
